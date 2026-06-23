@@ -30,6 +30,7 @@ a {
     font-weight: bold;
 }
 section {
+  text-align: center;
   background-color:  rgb(170, 223, 183); 
   margin: 20px;
     padding: 20px;
@@ -38,8 +39,8 @@ section {
     border-color: beige;
 }
 h2 {
-    text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 footer {
