@@ -51,7 +51,7 @@ div {
     padding: 20px;
     text-align: center;
 }
-menu {
+.menu {
   display: flex;
   overflow-x: auto;     
   white-space: nowrap;   
@@ -59,9 +59,19 @@ menu {
   padding: 10px;
 }
 
-menu a {
+.menu a {
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 5px;
   flex-shrink: 0;
+}
+
+/* Opcional: ocultar la barra de scroll */
+.menu::-webkit-scrollbar {
+  display: none;
+}
+
+.menu {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
