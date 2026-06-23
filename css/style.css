@@ -1,6 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(206, 205, 203);
+    background-color:#09411f;
     margin: 0;
     padding: 0;
 }
@@ -30,9 +30,12 @@ a {
     font-weight: bold;
 }
 section {
-  background-color: #dde6dd;
-    margin: 20px;
+  background-color:  rgb(170, 223, 183); 
+  margin: 20px;
     padding: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: beige;
 }
 h2 {
     text-align: center;
@@ -40,29 +43,32 @@ h2 {
 }
 
 footer {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #7be27e;
+    color: black;
     text-align: center;
     padding: 30px;
 }
 div {
-     background-color: #dde6dd;
-      margin: 20px;
-    padding: 20px;
-    text-align: center;
+  background-color:  rgb(170, 223, 183); 
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border-style: solid;
+ border-color: beige;
 }
-.menu {
+menu {
+  text-align: center;
   display: flex;
   overflow-x: auto;     
   white-space: nowrap;   
   gap: 15px;
   padding: 10px;
 }
-.menu::-webkit-scrollbar {
+menu::-webkit-scrollbar {
   display: none;
 }
 
-.menu {
+menu {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
