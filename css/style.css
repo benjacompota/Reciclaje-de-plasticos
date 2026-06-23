@@ -58,15 +58,6 @@ div {
   gap: 15px;
   padding: 10px;
 }
-
-.menu a {
-  text-decoration: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  flex-shrink: 0;
-}
-
-/* Opcional: ocultar la barra de scroll */
 .menu::-webkit-scrollbar {
   display: none;
 }
